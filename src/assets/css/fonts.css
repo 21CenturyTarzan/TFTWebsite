@@ -1,0 +1,77 @@
+/**
+ **************************************************************
+ * The Fans Together WebKit - v1.0.0
+ **************************************************************
+ * 
+ * Product Page: 
+ * Copyright 2022 @TFTTeam (https://www.tft-dev-team.com)
+ * 
+ * Coded by Telecrypto@OKI (https://t.me/Telecrypto20)
+ * 
+ **************************************************************
+ */
+/* basic fonts */
+
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('../fonts/DINCondensed-Light.eot');
+    src: local('DIN Condensed Light'), local('DINCondensed-Light'),
+        url('../fonts/DINCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINCondensed-Light.woff2') format('woff2'),
+        url('../fonts/DINCondensed-Light.woff') format('woff'),
+        url('../fonts/DINCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('../fonts/DINCondensed-Regular.eot');
+    src: local('DIN Condensed'), local('DINCondensed-Regular'),
+        url('../fonts/DINCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/DINCondensed-Regular.woff') format('woff'),
+        url('../fonts/DINCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('../fonts/DINCondensed-Bold.eot');
+    src: local('DIN Condensed Bold'), local('DINCondensed-Bold'),
+        url('../fonts/DINCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/DINCondensed-Bold.woff') format('woff'),
+        url('../fonts/DINCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold-Font.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Light.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* textarea::-webkit-scrollbar {
+  width: 20px;
+} */
+
+/* textarea::-webkit-scrollbar-track {
+  background: transparent;
+  border: 1px solid white
+} */
+
+/* textarea::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 25px;
+} */
